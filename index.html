@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulário para e-mail</title>
+</head>
+<body>
+    <section>
+        <h2><i>Me mande um E-Mail</i></h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome:</label>
+            <input type="text" name="name" placeholder="Digite seu nome aqui" autocomplete="off">
+            <label>E-Mail:</label>
+            <input type="email" name="email" placeholder="Digite seu e-mail aqui" autocomplete="off">
+            <label>Mensagem:</label>
+            <textarea type="message" name="message" cols="30" rows="8" placeholder="Digite sua mensagem aqui"></textarea>
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="accessKey" value="5746a9f4-53cb-4310-9835-60a6e7243740">
+            <input type="hidden" name="redirectTo" value="https://victorclvtt.github.io/envio_de_email/">
+        </form>
+    </section>
+</body>
+</html>
